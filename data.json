@@ -1,0 +1,38 @@
+{
+	"jobs": [
+	  {
+		"jobTitle": "Advanced Software Engineer Internship",
+		"companyTitle": "Kingland",
+		"jobDescription": "The SEI internship is available to students who are currently studying Software Engineering, Computer Engineering, or Computer Science at a four-year institution, whether at an undergraduate or graduate level. As an SE Intern, you will work as part of one of our product or solution teams to help improve and create software for our clients or our company. Throughout the internship, you will learn about all phases of the software development process and have the chance to develop your skills with different programming languages and tools.",
+		"applyNowLink": "https://www.gigzio.com/advanced-software-engineer-intern-ames-iowa-5288007251319343705?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+		"pictures": [
+		  {
+			"filename": "kingland.jpg"
+		  }
+		]
+	  },
+	  {
+		"jobTitle": "Software Developer Intern",
+		"companyTitle": "Brainsoft",
+		"jobDescription": "Brainsoft is seeking a software engineering intern who is enthusiastic about creating innovative solutions with a broad impact and who enjoys learning new technologies and tackling challenges. As an intern on the development team, you will have the opportunity to exercise your creativity while helping to create an infrastructure for managing experiments, collecting associated data, and applying data science techniques to gain insights. These experiments encompass a wide range of activities, from virtual reality gaming to attending meetings.",
+		"applyNowLink": "https://www.internships.com/posting/bug_39423313288?context=merch&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+		"pictures": [
+		  {
+			"filename": "Brainsoft.jpg"
+		  }
+		]
+	  },
+	  {
+		"jobTitle": "Web Dev Intern[Summer 2023] ",
+		"companyTitle": "R&D Industries, Inc.",
+		"jobDescription": "Thinix is currently searching for skilled web developers for their Software Development Intern program, both for front-end and back-end development. Successful candidates will work alongside Thinix's primary development team and will have the opportunity to contribute to new and upcoming products.",
+		"applyNowLink": "https://www.indeed.com/viewjob?jk=bb72b216085397b1&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+		"pictures": [
+		  {
+			"filename": "comp3.jpg"
+		  }
+		]
+	  }
+	]
+  }
+  

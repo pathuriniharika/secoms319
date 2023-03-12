@@ -1,0 +1,215 @@
+:root {
+   --redcolor:#FF0000;
+   --bluecolor:#0000FF;
+   --greencolor:#008000;
+   --graycolor:#808080;
+   --whitecolor:#FFFFFF;
+   --blackcolor:#000000;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   font-family:'Rampart One', Helvetica;
+}
+
+body {
+   width: 100%;
+   height: auto;
+}
+
+
+
+
+h1 {
+   line-height: 1.5;
+}
+
+.navbar {
+   width: 100%;
+   height: 60px;
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+   top: 0;
+   left: 0;
+   padding: 1rem 2.5rem;
+   z-index: 10;
+   color: var(--blackcolor);
+   background:transparent;
+}
+
+.navbar-theme > a {
+   letter-spacing: 2.5;
+   text-decoration: none;
+   color: var(--blackcolor);
+}
+
+.navbar-tab{
+   width: 400px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.navbar-tab > a {
+   letter-spacing: 1.5;
+   color: var(--blackcolor);
+   text-decoration-line: underline;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.menu {
+   display: none;
+}
+
+.menu .bar {
+   width: 15px; 
+   height: 2px;
+   margin: 3px auto;
+   transition: all 0.3 ease-in-out;
+   background-color: var(--whitecolor);
+   cursor: pointer;
+}
+
+.images {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+ }
+ 
+ .image1 {
+   width: 1500px;
+   height: 1000px;
+   background-image: url("images/reading-side.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 50px;
+ }
+ 
+ .image2 {
+   width: 1500px;
+   height: 1000px;
+   background-image: url("images/homeimg.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+ 
+ .image2::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.6);
+ }
+ 
+ .image2 .resources {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: #fff;
+   font-size: 2.5rem;
+   font-family: "Rampart One", cursive;
+   font-style: italic;
+   text-shadow: 2px 2px #000;
+   width: 80%;
+   line-height: 1.5;
+   z-index: 1;
+ }
+
+.text {
+   font-family: "Yanone Kaffeesatz";
+   font-size: 100px;
+   display: flex;
+   position: absolute;
+   bottom: 20vh;
+   left: 0%;
+   transform: translateX(-70%);
+   user-select: none;
+   top: 15rem;
+   left: 50rem;
+   letter-spacing: -100;
+   font-weight: bolder;
+   font-size: 40px;
+   color: #FF0000;
+ }
+ 
+ .text .wrapper {
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+ }
+ 
+ .text .wrapper .letter {
+   transition: ease-out 1s;
+   transform: translateY(30%);
+ }
+ 
+ .text .wrapper .shadow {
+   transform: scale(1, -1);
+   color: #999;
+   transition: ease-in 5s, ease-out 5s;
+ }
+ 
+ .text:hover .wrapper .letter {
+   transform: translateY(-200%);
+ }
+ 
+ .text:hover .wrapper .shadow {
+   opacity: 0;
+   transform: translateY(200%);
+ }
+
+ .container {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 45px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.job-listing {
+   background-color: #FFFFFF;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+   padding: 20px;
+}
+
+
+.job-title {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+ /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+ 
+}
+
+.company-title {
+   font-size: 16px;
+   font-weight: bold;
+   color: #666;
+   margin-bottom: 10px;
+}
+
+.job-description {
+   font-size: 16px;
+   line-height: 1.5;
+   margin-bottom: 10px;
+}
+
+.job-image {
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   margin-bottom: 1rem;
+ }
